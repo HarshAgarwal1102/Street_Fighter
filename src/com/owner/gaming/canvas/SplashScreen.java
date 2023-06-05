@@ -18,7 +18,9 @@ public class SplashScreen extends JWindow{
 	
 	public SplashScreen() {
 		setSize(1440,900);
-		Icon icon = new ImageIcon(SplashScreen.class.getResource("splash.png"));
+		// defining hardcore path so that I can run my JAR file.
+		String img = "/Users/harshagarwal/eclipse-workspace/Street_Fighter/src/com/owner/gaming/canvas/Splash.png";
+		ImageIcon icon = new ImageIcon(img);
 		label.setIcon(icon);
 		this.add(label);
 		setLocationRelativeTo(null);
@@ -29,19 +31,17 @@ public class SplashScreen extends JWindow{
 			setVisible(false);
 			dispose();
 			player.stop();
-			GameFrame obj = new GameFrame();
-			
-		} catch (Exception e) {
+			new GameFrame();
+		}
+		catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
 	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		SplashScreen screen = new SplashScreen();
-
+		new SplashScreen();
 	}
 
 }
