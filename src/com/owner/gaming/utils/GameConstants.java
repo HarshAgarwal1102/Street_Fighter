@@ -9,7 +9,7 @@ public interface GameConstants {
 	String RYU_IMAGE = "player-sprite.gif";
 	String KEN_IMAGE = "kenimage.png";
 	String RYU_FLIP_IMAGE = "ryuFlipImage.png";
-	int SPEED = 16;
+	int SPEED = 7;
 	int DEFAULT_FORCE = -20;
 	int GRAVITY = 1;
 	int MAX_HEALTH = 500;
