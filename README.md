@@ -55,6 +55,8 @@
  - When a character's health bar reaches zero, the opponent wins the round.<br>
  - The player who wins the required number of rounds first wins the match.<br>
  - A victory screen displays the winner and game statistics at the end of a match.<br>
+ <img width="1440" alt="Screenshot 2023-06-28 at 6 21 05 PM" src="https://github.com/king4404/king4404/assets/117922914/fa672bf9-8354-4ca0-87b7-b1f2ed13ba8a">
+
 # Deployment:
  - Package the game as a standalone executable or a runnable JAR file, making it easy for users to play the game on their systems.<br>
  - Distribute the game through appropriate channels, such as hosting it on a website, sharing it as a download, or submitting it to gaming platforms.<br>
