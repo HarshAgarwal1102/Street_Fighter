@@ -51,6 +51,6 @@
  - A victory screen displays the winner and game statistics at the end of a match.<br>
 # Deployment:
  - Package the game as a standalone executable or a runnable JAR file, making it easy for users to play the game on their systems.<br>
- - Distribute the game through appropriate channels, such as hosting it on a website, sharing it as a download, or submitting it to gaming platforms.<br><br>
+ - Distribute the game through appropriate channels, such as hosting it on a website, sharing it as a download, or submitting it to gaming platforms.<br>
 # Building a Street Fighter game using Java and Swing 
 allows you to create a visually engaging and interactive gaming experience, incorporating iconic characters, exciting fighting mechanics, and multiplayer capabilities. By following the steps outlined above and continuously refining your implementation, you can develop a compelling game that captures the essence of the Street Fighter series.
