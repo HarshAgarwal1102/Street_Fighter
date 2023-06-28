@@ -1,7 +1,7 @@
 # Street_Fighter
 ![wallpaperflare com_wallpaper (2)](https://github.com/king4404/Street_Fighter/assets/117922914/cf052359-a1d8-4793-b135-bd1d15f29f1a)
 
-# Building a 2D Street Fighter game using Java and Swing involves creating a graphical user interface (GUI) and implementing various game components and mechanics. Let's explore each aspect in detail:
+**Building a 2D Street Fighter game using Java and Swing involves creating a graphical user interface (GUI) and implementing various game components and mechanics. Let's explore each aspect in detail:**
 # Setting up the GUI:
  - Begin by creating a main window for the game using the `JFrame` class provided by Swing.<br>
  - Customize the window's properties, such as size, title, and layout.<br>
@@ -10,6 +10,8 @@
 - Create a visually appealing image or animation that represents the Street Fighter game.<br>
 - Design the splash screen to reflect the game's theme, incorporating the game's logo, characters, or other relevant elements.<br>
  - Use image editing tools or animation software to create the desired visual effect for the splash screen.<br>
+ <img width="1440" alt="Screenshot 2023-06-28 at 5 55 57 PM" src="https://github.com/king4404/king4404/assets/117922914/4c96e5cc-5661-48f1-9456-2e5abfaaad9d">
+
 # Implementing the Splash Screen:
  - Create a separate class specifically for the splash screen functionality.<br>
 - In this class, extend the JFrame class to create a new window for the splash screen.<br>
@@ -20,6 +22,8 @@
  - Design or obtain sprite sheets for the characters, which consist of individual images for various movements like walking, jumping, and attacking.<br>
  - Similarly, obtain or create background images that represent different fighting arenas.<br>
  - Split the sprite sheets into separate image files to be used for animation later.<br>
+ <img width="1440" alt="Screenshot 2023-06-28 at 5 56 09 PM" src="https://github.com/king4404/king4404/assets/117922914/4783c214-cf3f-4c45-9aab-e056ff28f643">
+
 # Player input:
  - Implement keyboard input listeners to capture player actions.<br>
  - Map specific keys to movements (e.g., arrow keys for walking and jumping) and attacks (e.g., punch, kick).<br>
@@ -29,6 +33,8 @@
  - Detect collisions between characters and objects, such as punches connecting with opponents or characters hitting the edges of the screen.<br>
  - Manage health values for each character, reducing health when attacks land successfully.<br>
  - Implement a scoring system and determine the winner based on the remaining health or other victory conditions.<br>
+ <img width="1440" alt="Screenshot 2023-06-28 at 5 56 43 PM" src="https://github.com/king4404/king4404/assets/117922914/5265c27e-7f52-406c-a437-13b816d4f704">
+
 # Animation:
  - Create animation cycles using sprite sheets.<br>
  - Define the sequences of sprite images to display various character movements and attacks.<br>
