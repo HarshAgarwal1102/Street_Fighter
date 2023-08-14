@@ -1,5 +1,5 @@
 # Street_Fighter
-![wallpaperflare com_wallpaper (2)](https://github.com/king4404/Street_Fighter/assets/117922914/cf052359-a1d8-4793-b135-bd1d15f29f1a)
+![wallpaperflare com_wallpaper (2)](https://github.com/HarshAgarwal1102/Street_Fighter/assets/117922914/e9538f1a-a6f4-4d3b-aba0-afa6ea6c5699)
 
 **Building a 2D Street Fighter game using Java and Swing involves creating a graphical user interface (GUI) and implementing various game components and mechanics. Let's explore each aspect in detail:**
 # ***Setting up the GUI:***
