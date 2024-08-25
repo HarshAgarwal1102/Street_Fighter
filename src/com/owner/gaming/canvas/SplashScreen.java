@@ -16,10 +16,12 @@ public class SplashScreen extends JWindow{
 		player.play();
 	}
 	
-	public SplashScreen() {
+	public SplashScreen() throws IOException {
 		setSize(1440,900);
-		String img = "/Users/rachitagarwal/eclipse-workspace/Street_Fighter/src/com/owner/gaming/canvas/Splash.png";
-		ImageIcon icon = new ImageIcon(img);
+		// String img = "/Users/harshagarwal/eclipse-workspace/Street_Fighter/src/com/owner/gaming/canvas/Splash.png";
+		// ImageIcon icon = new ImageIcon(img);
+
+		ImageIcon icon = new ImageIcon(ImageIO.read(Board.class.getResource("splash.png")));
 		label.setIcon(icon);
 		this.add(label);
 		setLocationRelativeTo(null);
@@ -40,7 +42,12 @@ public class SplashScreen extends JWindow{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		new SplashScreen();
+		try {
+			new SplashScreen();
+		} catch (IOException e) {
+		// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 }
